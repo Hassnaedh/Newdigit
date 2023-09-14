@@ -12,6 +12,11 @@
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         
         <!-- Styles -->
+        <style>
+        [x-cloak] {
+            display: none;
+        }
+        </style>
 
     </head>
     <body class="antialiased">
