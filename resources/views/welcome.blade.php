@@ -149,7 +149,7 @@
     </section>
 <!--Realisations section-->
     <div class="text-center pb-16">
-        <h2 class="text-3xl font-bold leading-tight text-blue-700 sm:text-4xl xl:text-5xl font-pj">Nos réalisations<h2>       
+        <h2 class="text-2xl font-bold leading-tight text-blue-700 sm:text-4xl xl:text-5xl font-pj">Nos réalisations<h2>       
     </div>
     <div x-data="{
         imageGalleryOpened: false,
@@ -248,12 +248,12 @@
 
 </div>
 <!--Article section-->
-<section class="py-12 bg-white sm:py-16 lg:py-20 max-w-7xl">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<section class="py-12 bg-white sm:py-16 lg:py-20">
+    <div class="px-4 mx-auto max-w-3xl sm:px-6 lg:px-8">
         <div class="max-w-md mx-auto text-center">
         <h2 class="text-3xl font-bold leading-tight text-blue-700 sm:text-4xl  font-pj">Nos derniers articles<h2>       
         </div>
-        <div class="grid max-w-3xl grid-cols-1 mx-auto mt-8 text-center sm:mt-16 sm:text-left sm:grid-cols-2 gap-y-8 gap-x-8 lg:gap-x-20">
+        <div class="grid max-w-5xl grid-cols-1 mx-auto mt-8 text-center sm:mt-16 sm:text-left sm:grid-cols-2 gap-y-8 gap-x-8 lg:gap-x-20">
             <div class="relative group">
                 <div class="overflow-hidden rounded-lg aspect-w-16 aspect-h-9">
                     <img class="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/article1.jpg') }}" alt="" />
@@ -292,6 +292,151 @@
         </div>
     </div>
 </section>
+
+<!--Services à la carte section-->
+<!--<section class="py-20 bg-white">
+    <div class="container max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold tracking-tight text-center">Nos services à la carte</h2>
+        <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+
+            <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                <div class="p-3 text-white">
+                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/siteWeb.png') }}" alt="" />
+                </div>
+                <h4 class="text-2xl font-semibold text-black font-pj">Site Web</h4>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                <div class="p-3 text-white">
+                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/logo1.png') }}" alt="" />
+                </div>
+                <h4 class="text-2xl font-semibold text-black font-pj">Logo</h4>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                <div class="p-3 text-white">
+                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/presentationConseil.png') }}" alt="" />
+                </div>
+                <h4 class="text-2xl font-semibold text-black font-pj">Conseil</h4>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                <div class="p-3 text-white">
+                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/MotionGraphique.png') }}" alt="" />
+                </div>
+                <h4 class="text-2xl font-semibold text-black font-pj">Charte graphique</h4>
+            </div>
+
+            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-blue-400 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                <div class="p-3 text-white">
+                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/réseaux.png') }}" alt="" />
+                </div>
+                <h4 class="text-2xl font-semibold text-black font-pj">Réseaux sociaux</h4>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+<section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold tracking-tight pb-16 text-center">Nos services à la carte</h2>
+        <div class="grid grid-cols-1 gap-12 text-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-16">
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-blue-100" width="95" height="97" viewBox="0 0 72 75" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M63.6911 28.8569C68.0911 48.8121 74.6037 61.2674 53.2349 65.9792C31.8661 70.6909 11.6224 61.2632 7.22232 41.308C2.82229 21.3528 3.6607 12.3967 25.0295 7.68503C46.3982 2.97331 59.2911 8.90171 63.6911 28.8569Z" />
+                    </svg>
+                    <svg class="absolute text-blue-600 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
+                        />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Site Web</h3>
+                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-orange-100" width="95" height="95" viewBox="0 0 62 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M62 13.001C62 33.4355 53.9345 64.001 33.5 64.001C13.0655 64.001 0 50.435 0 30.0005C0 9.56596 2.56546 4.00021 23 4.00021C43.4345 4.00021 62 -7.43358 62 13.001Z" />
+                    </svg>
+                    <svg class="absolute text-orange-600 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Logo</h3>
+                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-green-100" width="90" height="93" viewBox="0 0 66 68" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M65.5 30C65.5 50.4345 46.4345 68 26 68C5.56546 68 0 50.4345 0 30C0 9.56546 12.5655 0 33 0C53.4345 0 65.5 9.56546 65.5 30Z" />
+                    </svg>
+                    <svg class="absolute text-green-600 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Conseil</h3>
+                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-purple-100" width="95" height="97" viewBox="0 0 66 68" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M65.5 30C65.5 50.4345 46.4345 68 26 68C5.56546 68 0 50.4345 0 30C0 9.56546 12.5655 0 33 0C53.4345 0 65.5 9.56546 65.5 30Z" />
+                    </svg>
+                    <svg class="absolute text-purple-600 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Charte Graphique</h3>
+                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-gray-100" width="95" height="97" viewBox="0 0 65 70" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M64.5 26C64.5 46.4345 56.4345 70 36 70C15.5655 70 0 53.9345 0 33.5C0 13.0655 13.0655 0 33.5 0C53.9345 0 64.5 5.56546 64.5 26Z" />
+                    </svg>
+                    <svg class="absolute text-gray-600 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Réseaux sociaux</h3>
+                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+            <div>
+                <div class="relative flex items-center justify-center mx-auto">
+                    <svg class="text-yellow-100" width="95" height="97" viewBox="0 0 78 78" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.49996 28.0002C4.09993 47.9554 14.1313 66.7885 35.5 71.5002C56.8688 76.2119 68.0999 58.4553 72.5 38.5001C76.9 18.5449 68.3688 12.711 47 7.99931C25.6312 3.28759 12.9 8.04499 8.49996 28.0002Z" />
+                    </svg>
+                    <svg class="absolute text-yellow-500 w-9 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
+                        />
+                    </svg>
+                </div>
+                <h3 class="mt-8 text-lg font-semibold text-black">Motion Graphique</h3><p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--Rendez-vous section-->
+
+
 
 </main>
 
