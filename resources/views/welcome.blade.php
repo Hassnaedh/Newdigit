@@ -52,7 +52,7 @@
 
     <section class="pb-12 bg-white sm:pb-16 lg:pb-20">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-            <div class="relative py-12 overflow-hidden bg-blue-600 rounded-xl sm:py-16 lg:py-20">
+            <div class="relative py-12 overflow-hidden bg-blue-600 opacity-90 rounded-xl sm:py-16 lg:py-20">
                 <div class="relative max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
                     <div class="relative">
                         <div class="absolute"></div>
@@ -116,7 +116,7 @@
     <section class="py-12 bg-white sm:py-16 lg:py-20">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="text-3xl font-bold leading-tight text-blue-700 sm:text-4xl xl:text-5xl font-pj">Domaines d'expertise</h2>       
+            <h2 class="text-3xl font-bold leading-tight text-blue-700 sm:text-4xl font-pj">Domaines d'expertise</h2>       
         </div>
 
         <div class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24 shadow-lg bg-gradiant-gray rounded-lg">
@@ -149,7 +149,7 @@
     </section>
 <!--Realisations section-->
     <div class="text-center pb-16">
-        <h2 class="text-2xl font-bold leading-tight text-blue-700 sm:text-4xl xl:text-5xl font-pj">Nos réalisations<h2>       
+        <h2 class="text-3xl font-bold leading-tight text-blue-700 sm:text-4xl  font-pj">Nos réalisations<h2>       
     </div>
     <div x-data="{
         imageGalleryOpened: false,
@@ -294,49 +294,7 @@
 </section>
 
 <!--Services à la carte section-->
-<!--<section class="py-20 bg-white">
-    <div class="container max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold tracking-tight text-center">Nos services à la carte</h2>
-        <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
 
-            <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <div class="p-3 text-white">
-                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/siteWeb.png') }}" alt="" />
-                </div>
-                <h4 class="text-2xl font-semibold text-black font-pj">Site Web</h4>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <div class="p-3 text-white">
-                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/logo1.png') }}" alt="" />
-                </div>
-                <h4 class="text-2xl font-semibold text-black font-pj">Logo</h4>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl shadow-md" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <div class="p-3 text-white">
-                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/presentationConseil.png') }}" alt="" />
-                </div>
-                <h4 class="text-2xl font-semibold text-black font-pj">Conseil</h4>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-white sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <div class="p-3 text-white">
-                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/MotionGraphique.png') }}" alt="" />
-                </div>
-                <h4 class="text-2xl font-semibold text-black font-pj">Charte graphique</h4>
-            </div>
-
-            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-blue-400 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <div class="p-3 text-white">
-                    <img class=" w-full transition-all duration-300 transform group-hover:scale-125" src="{{ asset('img/réseaux.png') }}" alt="" />
-                </div>
-                <h4 class="text-2xl font-semibold text-black font-pj">Réseaux sociaux</h4>
-            </div>
-
-        </div>
-    </div>
-</section>-->
 
 <section class="py-10 bg-white sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
